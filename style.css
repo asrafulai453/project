@@ -1,3 +1,27 @@
-h1 {
-    font-size: 100px;
-}
+    body {
+  font-family: "PT Serif", serif;   /* font download form google */
+  font-weight: 400;
+  font-style: italic;
+    }
+                        /* All body Font for Home page */
+
+
+    h1 {
+    font-size: 50px;
+        }
+
+.name-highlight {
+    color: orange;
+
+    }
+
+    .half-space {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 5%;
+    }
+
+    .half-space img {
+        width: 80%;
+    }
