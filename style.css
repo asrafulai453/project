@@ -1,9 +1,25 @@
     body {
-  font-family: "PT Serif", serif;   /* font download form google */
-  font-weight: 400;
-  font-style: italic;
+        font-family: "PT Serif", serif;   /* font download form google */
+        font-weight: 400;
+        font-style: italic;
+        margin: 0px;
+         }
+                       
+         
+         /* All body Font for Home page */
+
+
+
+
+    section {height: 500px;
+            
     }
-                        /* All body Font for Home page */
+
+    .top-banner {
+        background-repeat: no-repeat;
+        background-image: url(image/banner.png)
+        
+    }
 
 
     h1 {
@@ -24,4 +40,14 @@
 
     .half-space img {
         width: 80%;
+    }
+
+    .link-button {
+        text-decoration: none;
+        background-image: linear-gradient(30deg,yellow,red);
+        background-color: orange;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
     }
