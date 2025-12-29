@@ -11,12 +11,12 @@
 
 
 
-    section {height: 500px;
+    section {height: 500px;     /* section higth and padding bottom*/
             padding-bottom: 100px;
             
     }
 
-    .top-banner {
+    .main-section {
         background-repeat: no-repeat;
         background-image: url(image/banner.png)
         
@@ -60,6 +60,25 @@
         background-position: right;
     }
 
-    .three {
-        float: left;
-    }
+    
+.table-desine {
+    box-shadow: 10px 10px 40px red ;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.footer {
+    background: url(image/exp.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#frist-border {
+    border-left: 7px;
+    
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+}
